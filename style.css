@@ -145,8 +145,6 @@ html{
     border: 4px dashed rgb(239, 12, 50);
     border-radius: 25px;
     object-fit: cover;
-    text-shadow: -4px -5px 1.2px grey;
-}
 p::first-line{
     color: black;
     font-size: 35px;
@@ -167,7 +165,6 @@ p::first-line{
     border: 4px dashed rgb(236, 12, 49);
     border-radius: 25px;
     object-fit: cover;
-    text-shadow: -4px -5px 1.2px grey;
 }
 .parag::first-line{
     color: black;
