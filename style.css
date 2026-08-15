@@ -140,6 +140,7 @@ html{
     font-size: 27px;
     width: 600px;
     height: 600px;
+    text-shadow:none;
     padding: 15px;
     position: relative;
     border: 4px dashed rgb(239, 12, 50);
@@ -166,6 +167,7 @@ p::first-line{
     border: 4px dashed rgb(236, 12, 49);
     border-radius: 25px;
     object-fit: cover;
+    text-shadow:none;
 }
 .parag::first-line{
     color: black;
