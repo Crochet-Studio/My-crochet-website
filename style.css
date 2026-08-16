@@ -51,7 +51,7 @@ nav a:hover{
 }
 .hero-text{
     position: absolute;
-    top: 25%;
+    top: 18%;
     word-spacing: 17px;
     left: 50%;
     transform: translate(-50%,-50%);
