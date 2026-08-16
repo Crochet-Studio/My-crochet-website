@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(243, 155, 170, 0.879);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+  font-family: "Dancing Script" ;
+
+}
+nav{
+    text-align: end;
+    gap: 10px;
+    margin-top: 40px;
+    margin: auto;
+    word-spacing: 17px;
+    padding: 10px;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s ease;
+    color: black;
+}
+nav a:hover{
+    cursor: pointer;
+    color: gold;
+    font-size: 18px;
+    background-color: blueviolet;
+}
+.hero-img{
+    height: 900px;
+    object-fit: cover;
+    border-top: 5px solid black;
+    width: 100%;
+    border-bottom:2px solid black ;
+    overflow: hidden;
+}
+.hero{
+    position: relative;
+}
+.hero-text{
+    position: absolute;
+    top: 25%;
+    word-spacing: 17px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hero-text h2{
+    font-family: Dancing Script ;
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(22, 1, 18)
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero-btn{
+    color: gold;
+    border: none;
+    width: 120px;
+    border-radius: 50px;
+    font-size: 17px;
+    height: 40px;
+    padding: 2px;
+    margin: auto;
+    background-color: black;
+}
+.pro{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+.pro:hover{
+    color: gold;
+}
+
+.prod{
+    background-color: lightgreen;
+    font-size: 70px;
+    padding: 5px;
+    height: 120px;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 60px;
+    color: rgba(181, 16, 43, 0.879);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-decoration: underline;
+}
+.prod:active{
+    color: gold;
+}
+.box1{
+    width: 100%;
+    height: 700px;
+    border:2 px solid black;
+}
+.abt{
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+}
+.abt img{
+   overflow: hidden;
+   object-fit: cover;
+    width: 100%;
+    border-bottom: 5px solid black;
+    height: 900px;
+}
+.abt-text{
+    position: relative;
+    text-align: center;
+    bottom: 910px;
+    background-color:  rgb(213, 16, 49);
+}
+.abt-h1{
+    font-size: 80px;
+    height: 120px;
+}
+.para{
+    text-align: center;
+    margin-left: 30px;
+    font-weight: bold;
+    bottom: 98%;
+    line-height: 60px;
+    word-spacing: 10px;
+    font-size: 27px;
+    width: 600px;
+    height: 600px;
+    padding: 15px;
+    position: relative;
+    border: 4px dashed rgb(239, 12, 50);
+    border-radius: 25px;
+    object-fit: cover;
+}
+p::first-line{
+    color: black;
+    font-size: 35px;
+}
+.parag{
+    text-align: end;
+    font-weight: bold;
+    line-height: 60px;
+    margin-left: 50%;
+    word-spacing: 10px;
+    font-size: 27px;
+    width: 560px;
+    bottom: 1400px;
+    height: 550px;
+    position: relative;
+    padding: 15px;
+    padding-left: -25px;
+    border: 4px dashed rgb(236, 12, 49);
+    border-radius: 25px;
+    object-fit: cover;
+}
+.parag::first-line{
+    color: black;
+    font-size: 35px;
+}
+.prd{
+    padding-top: 20px;
+    background-color: aqua;
+    font-size: 75px;
+    border: 4px solid black;
+    height: 140px;
+    border-bottom:none ;
+    color: rgb(239, 12, 50);
+}
+.head1{
+    font-weight: bold;
+    font-size: 65px;
+    background-color: black;
+    color: rgba(157, 135, 9, 0.571);
+}
+.products{
+    height: auto;
+    width: 100%;
+    background-color: rgb(201, 100, 117);
+}
+.card-container{
+    width: 100%;
+    padding: 20px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    box-sizing: border-box;
+    text-align: center;
+    padding-left: 10%;
+    top: 3%;
+}
+.card{
+    width: 300px;
+    min-height: 470px;
+    padding: 15px;
+    background-color: #fffaf7;
+    text-align: center;
+    row-gap: 40px;
+    word-spacing: 6px;
+    margin-right: 15px;
+    column-gap: 30px;    border-radius: 18px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+    transition: 0.3s ease;
+    margin-bottom: 40px;
+}
+.card img{
+    height: 210px;
+    object-fit: contain;
+    border-radius: 14px;
+    width: 180px;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+.cro{
+    margin: 12px 0 5px;
+    font-size: 22px;
+    font-family:Bebas Neue;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+h3{
+    line-height: 25px;
+    font-size: 15px;
+    font-style: italic;
+}
+html, body{
+    width: 100%;
+}
+.pri{
+    font-size: 19px;
+    font-style: normal;
+    font-weight: bold;
+}
+#products2{
+    background-color: rgb(19, 131, 201);
+}
+.grlnd{
+    width: 200px;
+    height: 300px;
+}
+.products3{
+    background-color: rgb(150, 55, 150);
+}
+.whatsapp-btn{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 14px;
+    background: #25D366;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: none;
+}
+>.whatsapp-btn:focus{
+    outline: none;
+}
+.whatsapp-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2)
+}
+.contact form{
+    display: grid;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+.contact input,
+.contact textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact button{
+    border: none;
+    cursor: pointer;
+}
+#contact{
+    margin-bottom: 30px;
+}
+footer{
+    background-color: #4e342e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.social links img{
+    height: 25px;
+margin: 10px 5px;
+transition: transform0.3s;
+}
+.social links:hover{
+transform: scale(1.2);
+}
+#contact{
+    background-color: rgb(47, 142, 47);
+}
+.contact-title{
+    font-size: 50px;
+    color: lightblue;
+}
+.btn{
+    background-color: #25D366;
+}
+.footer-container container{
+    display: flex;
+}
+@media (max-width: 768px){
+    header{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(243, 155, 170, 0.879);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+  font-family: "Dancing Script" ;
+
+}
+nav{
+    text-align: end;
+    gap: 10px;
+    margin-top: 40px;
+    margin: auto;
+    word-spacing: 17px;
+    padding: 10px;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s ease;
+    color: black;
+}
+nav a:hover{
+    cursor: pointer;
+    color: gold;
+    font-size: 18px;
+    background-color: blueviolet;
+}
+.hero-img{
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    border-top: 5px solid black;
+    border-bottom:2px solid black ;
+    overflow: hidden;
+}
+.hero{
+    background-image: url(/img/hero-image.jfif)
+    position: relative;
+}
+.hero-text{
+    position: absolute;
+    top: 29%;
+    word-spacing: 17px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hero-text h2{
+    font-family: Dancing Script ;
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(22, 1, 18)
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero-btn{
+    color: gold;
+    border: none;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 14px;
+    height: 35px;
+    padding: 2px;
+    margin: auto;
+    background-color: black;
+    margin-top: -10%;
+}
+.abt{
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+}
+.abt img{
+   overflow: hidden;
+   object-fit: cover;
+    width: 100%;
+    border-bottom: 5px solid black;
+    height: 900px;
+}
+.abt-text{
+    position: relative;
+    text-align: center;
+    bottom: 910px;
+    background-color:  rgb(213, 16, 49);
+}
+.abt-h1{
+    font-size: 80px;
+    height: 120px;
+}
+.para{
+    width: calc(100% - 30px);
+    height: auto;
+    text-align: center;
+    margin-left: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    bottom: 98%;
+    line-height: 35px;
+    word-spacing: 4px;
+    font-size: 18px;
+    padding: 15px;
+    position: relative;
+    object-fit: cover;
+}
+p::first-line{
+    color: black;
+    font-size: 35px;
+}
+.parag{
+    display: none;
+}
+.prd{
+    padding-top: 20px;
+    background-color: aqua;
+    font-size: 60px;
+    border: 4px solid black;
+    height: 140px;
+    border-bottom:none ;
+    color: rgb(239, 12, 50);
+}
+.card-container{
+    width: 100%;
+    padding: 0 8px;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    box-sizing: border-box;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10px;
+    top: 3%;
+}
+.card{
+    width: 100%;
+    min-height: 0;
+    height: 340px;
+    overflow: visible;
+    align-self: start;
+    padding: 12px;
+    border-radius: 18px;
+    background-color: #fffaf7;
+    text-align: center;
+    word-spacing: 4px;
+    column-gap: 30px;    border-radius: 18px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+    transition: 0.3s ease;
+
+}
+.card img{
+    border-bottom: 0;
+    margin-top: -25%;
+    width: 120px;
+    height: 180px;
+    object-fit: contain;
+}
+.cro{
+    margin-top: -70%;
+    font-size: 15px;
+    margin-top: -25px;
+}
+h3{
+    line-height: 16px;
+    font-size: 15px;
+    font-style: italic;
+}
+.whatsapp-btn{
+    display: inline-block;
+    width: fit-content;
+    padding: 8px 10px;
+    margin-top: -50%;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 10px;
+    background: #25D366;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: none;
+}
+>.whatsapp-btn:focus{
+    outline: none;
+}
+.whatsapp-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2)
+}
+#products2{
+    background-color: rgb(47, 133, 161)
+}
+#products2 img{
+    width: 100px;
+}
+.products3 img{
+    width: 70px;
+}
+}
